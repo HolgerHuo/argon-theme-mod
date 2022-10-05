@@ -8,7 +8,7 @@ function add_headers() {
     <link rel="dns-prefetch" href="https://cdn.dragoncloud.win">
     <style>
         body {
-            overflow-x: hidden;
+            overflow-x: hidden !important;
         }
     </style>
     <?php
