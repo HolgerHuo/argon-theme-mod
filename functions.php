@@ -25,4 +25,4 @@ function verify_mastodon() {
     <div style='display: none !important'><a rel="me" href="https://mast.dragon-fly.club/@holgerhuo">Mastodon Verification</a></div>
     <?php
 }
-add_action('after_body_open_tag', 'verify_mastodon');
+add_action('wp_body_open', 'verify_mastodon');
