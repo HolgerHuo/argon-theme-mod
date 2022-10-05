@@ -7,8 +7,8 @@ function add_headers() {
     <link rel="preconnect" href="https://cdn.dragoncloud.win">
     <link rel="dns-prefetch" href="https://cdn.dragoncloud.win">
     <style>
-        body {
-            overflow-x: hidden !important;
+        #post_comment {
+            overflow-x: clip !important;
         }
     </style>
     <?php
